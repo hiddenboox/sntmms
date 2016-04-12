@@ -1,0 +1,10 @@
+{
+  "name": "Simple-Node-TypeScript-Mongoose-Model-Skeleton",
+  "dependencies": {},
+  "devDependencies": {},
+  "ambientDevDependencies": {
+    "mongoose": "github:DefinitelyTyped/DefinitelyTyped/mongoose/mongoose.d.ts#cebde64b3a1d63d07ee7c7dbc49b631ce220d027",
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#48c1e3c1d6baefa4f1a126f188c27c4fefd36bff",
+    "ws": "github:DefinitelyTyped/DefinitelyTyped/ws/ws.d.ts#abc2bcfb8524b1e027e6298d3348012b5b06eda5"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Simple-Node-TypeScript-Mongoose-Model-Skeleton",
+  "version": "0.0.1",
+  "description": "Simple-Node-TypeScript-Mongoose-Model-Skeleton",
+  "main": "dist/server.js",
+  "scripts": {
+    "postinstall": "typings install",
+    "prestart": "tsc",
+    "start": "node dist/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiddenboox/sntmms.git"
+  },
+  "author": "Sebastian Sobociński <hiddenboox@gmail.com> (http://github.com/hiddenboox)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiddenboox/sntmms/issues"
+  },
+  "homepage": "https://github.com/hiddenboox/sntmms#readme",
+  "devDependencies": {
+    "bluebird": "^3.3.3",
+    "mongoose": "^4.4.5",
+    "ws": "^1.0.1"
+  }
+}
