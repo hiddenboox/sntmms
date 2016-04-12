@@ -2,11 +2,11 @@
   "name": "Simple-Node-TypeScript-Mongoose-Model-Skeleton",
   "version": "0.0.1",
   "description": "Simple-Node-TypeScript-Mongoose-Model-Skeleton",
-  "main": "dist/server.js",
+  "main": "dist/src/server.js",
   "scripts": {
     "postinstall": "typings install",
     "prestart": "tsc",
-    "start": "node dist/server",
+    "start": "node dist/src/server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
