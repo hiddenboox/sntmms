@@ -1,8 +1,9 @@
 'use strict';
 
 import * as mongoose from 'mongoose';
+import { HOST } from '../../config/mongo';
 
-mongoose.connect('mongodb://localhost:27017/ws');
+mongoose.connect(HOST);
 
 export let db = mongoose.connection;
 
