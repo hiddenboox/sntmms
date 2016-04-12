@@ -19,9 +19,9 @@
     "url": "https://github.com/hiddenboox/sntmms/issues"
   },
   "homepage": "https://github.com/hiddenboox/sntmms#readme",
-  "devDependencies": {
-    "bluebird": "^3.3.3",
-    "mongoose": "^4.4.5",
-    "ws": "^1.0.1"
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "mongoose": "^4.4.12",
+    "typescript": "^1.8.9"
   }
 }

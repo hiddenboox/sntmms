@@ -1,6 +1,8 @@
 {
   "name": "Simple-Node-TypeScript-Mongoose-Model-Skeleton",
-  "dependencies": {},
+  "dependencies": {
+    "bluebird": "registry:npm/bluebird#3.3.4+20160411163813"
+  },
   "devDependencies": {},
   "ambientDevDependencies": {
     "mongoose": "github:DefinitelyTyped/DefinitelyTyped/mongoose/mongoose.d.ts#cebde64b3a1d63d07ee7c7dbc49b631ce220d027",
